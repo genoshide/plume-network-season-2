@@ -5,6 +5,8 @@ from .utils import _parse_random_value
 
 load_dotenv()
 
+#7469
+
 settings = {
     "RPC_URL": os.getenv("RPC_URL", "https://rpc.plume.org"),
     "EXPLORER_URL": os.getenv("EXPLORER_URL", "https://explorer.plume.org/address/0x"),
